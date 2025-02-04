@@ -11,3 +11,24 @@ __pycache__/
 
 # macOS system files
 .DS_Store
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment
+.venv/
+
+# Ignore large data/log files
+data/
+*.log
+*.json
+*.csv
+
+# Ignore images (optional if not included in README)
+images/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
